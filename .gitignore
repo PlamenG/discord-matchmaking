@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+npm-debug.log*
+.pm2/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
